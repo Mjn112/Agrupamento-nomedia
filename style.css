@@ -96,7 +96,7 @@ body {
   height: 80%;
   border-radius: 100%;
   border: solid 1vw #fff;
-  box-shadow: black 0px 8px 20px;
+  box-shadow: black 0px 3px 7px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -316,7 +316,7 @@ body {
     background-color: #664a9f;
     padding: 0.8vw 0.8vw 1.57vw 0.8vw;
     width: 29vw;
-    height: 18vw;
+    height: 20vw;
     color: white;
   }
 
@@ -341,7 +341,6 @@ body {
     font-size: 1.9vw;
     white-space: pre-line;
     margin-top: 3vw;
-
   }
 
   .texto_card1Insta {
@@ -415,8 +414,6 @@ body {
   }
 }
 
-
-/************** Media 600 para celulares ***************/
 @media screen and (max-width: 600px) and (min-width: 390px) {
 
   /************ aumentar textos na seçao 1 *********8*/
@@ -463,7 +460,7 @@ body {
     background-color: #664a9f;
     padding: 0.8vw 0.8vw 1.57vw 0.8vw;
     width: 29vw;
-    height: 18vw;
+    height: 20vw;
     color: white;
   }
 
@@ -1030,7 +1027,7 @@ body {
     align-items: flex-start;
     justify-content: center;
     padding: 0px 0px 0px 6.2%;
-    border-radius: 5vw;
+    border-radius: 3vw;
     margin: 0.396827vw;
   }
 
