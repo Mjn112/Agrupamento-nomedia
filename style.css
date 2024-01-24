@@ -4,16 +4,20 @@
   padding: 0;
 }
 
+
 a {
   text-decoration: none;
 }
 
+
 /* ****************************************************** fontes ****************************************************** */
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
 
 :root {
   --fonte1: 'Montserrat 900', sans-serif;
 } */
+
 
 @font-face {
   font-family: "Montserrat-bold";
@@ -21,15 +25,18 @@ a {
   font-style: normal;
 }
 
+
 @font-face {
   font-family: "Montserrat-black";
   src: url("Montserrat-Black.ttf");
 }
 
+
 @font-face {
   font-family: "Montserrat-regular";
   src: url("Montserrat-Regular.ttf");
 }
+
 
 /* ****************************************************** Seção 1 ****************************************************** */
 body {
@@ -37,6 +44,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 
 .fundo {
   width: 99.3vw;
@@ -46,6 +54,7 @@ body {
   position: relative;
   overflow: hidden;
 }
+
 
 .fundo::after {
   content: "";
@@ -65,6 +74,7 @@ body {
   /* z-index: 1; */
 }
 
+
 .imgFundo {
   min-width: 100%;
   height: 100%;
@@ -72,6 +82,7 @@ body {
   margin: 0 auto;
   z-index: -1;
 }
+
 
 .logo {
   z-index: 2;
@@ -91,6 +102,7 @@ body {
   overflow: hidden;
 }
 
+
 .borda {
   width: 80%;
   height: 80%;
@@ -103,6 +115,7 @@ body {
   overflow: hidden;
 }
 
+
 .logo_img {
   min-width: 130%;
   min-height: 130%;
@@ -111,6 +124,7 @@ body {
   left: 50%;
   top: -500px;
 }
+
 
 /* ****************************************************** Seção 2 ****************************************************** */
 .secao_header {
@@ -121,6 +135,7 @@ body {
   z-index: 1;
 }
 
+
 .texto1 {
   text-align: center;
   margin: 0.4vw;
@@ -129,6 +144,7 @@ body {
   font-family: "Montserrat-bold";
   white-space: pre-line;
 }
+
 
 .texto2 {
   text-align: center;
@@ -139,6 +155,7 @@ body {
   line-height: 0.8;
 }
 
+
 /* ****************************************************** Seção 3 ****************************************************** */
 .secao_main {
   display: flex;
@@ -148,11 +165,13 @@ body {
   margin: 3.9683vw 0px 1.984125vw 0px;
 }
 
+
 .texto3 {
   font-size: 2vw;
   color: #664a9f;
   font-family: "Montserrat-regular";
 }
+
 
 .container_cards {
   display: flex;
@@ -162,17 +181,19 @@ body {
   justify-content: center;
 }
 
+
 .card {
   background-color: #664a9f;
   padding: 0.8vw 0.8vw 1.57vw 0.8vw;
   /* max-width: 350px; */
-  width: 29vw;
+  width: 41vw;
   /* width: 390px; */
   /* height: 120px; */
   /*180*/
-  height: 11vw;
+  height: 14vw;
   color: white;
 }
+
 
 .icon_card {
   width: 8vw;
@@ -182,6 +203,7 @@ body {
   left: -5%;
 }
 
+
 .texto_card1 {
   font-size: 1.5vw;
   margin-top: -6.8vw;
@@ -190,12 +212,14 @@ body {
   white-space: pre-line;
 }
 
+
 .texto_card2 {
   font-family: "Montserrat-regular";
-  font-size: 1.3vw;
+  font-size: 1.8vw;
   white-space: pre-line;
   margin-top: 3vw;
 }
+
 
 .texto_card1Insta {
   font-family: "Montserrat-black";
@@ -205,13 +229,14 @@ body {
   font-size: 1.4vw;
 }
 
+
 .texto_card2Insta {
   font-family: "Montserrat-regular";
   white-space: pre-line;
-  font-size: 1.2vw;
+  font-size: 1.8vw;
   margin-top: 3vw;
-  margin-left: 4vw;
 }
+
 
 /* ****************************************************** Seção 4 ****************************************************** */
 .secao_footer {
@@ -223,6 +248,7 @@ body {
   margin-bottom: 4vw;
 }
 
+
 .texto4 {
   color: #664a9f;
   font-size: 2vw;
@@ -231,6 +257,15 @@ body {
   font-family: "Montserrat-regular";
   white-space: pre-line;
 }
+
+
+.container_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vw;
+}
+
 
 .btn {
   background-color: #664a9f;
@@ -246,6 +281,7 @@ body {
   margin: 0.396827vw;
 }
 
+
 .btn_texto1 {
   font-size: 0.8vw;
   font-family: "Montserrat-regular";
@@ -253,10 +289,12 @@ body {
   margin-left: 1%;
 }
 
+
 .btn_texto2 {
   font-size: 2.2vw;
   font-family: "Montserrat-bold";
 }
+
 
 .btn_texto_alt1 {
   line-height: 82%;
@@ -266,9 +304,12 @@ body {
   white-space: pre-line;
 }
 
+
 /********************* medias*******************************/
 
+
 /* media 390 */
+
 
 @media screen and (max-width: 390px) {
 
@@ -276,122 +317,132 @@ body {
   .texto1 {
     text-align: center;
     margin: 0.4vw;
-    font-size: 3.2vw;
+    font-size: 4vw;
     color: #664a9f;
     font-family: "Montserrat-bold";
     white-space: pre-line;
   }
 
+
   .texto2 {
     text-align: center;
-    font-size: 3.5vw;
+    font-size: 4vw;
     color: #664a9f;
     font-family: "Montserrat-regular";
     white-space: pre-line;
     line-height: 0.8;
     margin-top: 1vw;
-
   }
+
 
   /******************* aumentar tamanho dos cards ************/
 
+
   .texto3 {
-    font-size: 3vw;
+    font-size: 3.5vw;
     color: #664a9f;
     font-family: "Montserrat-regular";
     margin-top: 2vw;
-
   }
+
 
   .container_cards {
     display: flex;
-    gap: 1.5vw;
+    gap: 3vw;
     width: 95vw;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 2vw;
   }
 
+
   .card {
-    background-color: #664a9f;
-    padding: 0.8vw 0.8vw 1.57vw 0.8vw;
-    width: 29vw;
-    height: 20vw;
-    color: white;
+    width: 39vw;
+    height: 21vw;
   }
+
 
   .icon_card {
     width: 12vw;
     height: 12vw;
     position: relative;
     top: -1.5vw;
-    left: -5%;
+    left: -6%;
   }
 
+
   .texto_card1 {
-    font-size: 1.9vw;
+    font-size: 2.5vw;
     margin-top: -10vw;
-    margin-left: 9vw;
+    margin-left: 8vw;
     font-family: "Montserrat-black";
     white-space: pre-line;
   }
+
 
   .texto_card2 {
     font-family: "Montserrat-regular";
-    font-size: 1.9vw;
+    font-size: 2.3vw;
     white-space: pre-line;
     margin-top: 3vw;
+    text-align: left;
   }
+
 
   .texto_card1Insta {
     font-family: "Montserrat-black";
-    font-size: 1.5vw;
-    margin-left: 9vw;
+    font-size: 2.3vw;
+    margin-left: 8vw;
     margin-top: -10vw;
     white-space: pre-line;
   }
+
 
   .texto_card2Insta {
     font-family: "Montserrat-regular";
     white-space: pre-line;
-    font-size: 1.6vw;
+    font-size: 2.1vw;
     margin-top: 3.2vw;
     margin-left: 0vw;
   }
+
 
   /************************ aumentar botões seção4*****************/
   .secao_footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1.5vw;
-    gap: 0.5vw;
+    margin-top: 0.5vw;
+    gap: 8vw;
     margin-bottom: 4vw;
     margin-top: 6vw;
   }
 
+
   .texto4 {
     color: #664a9f;
-    font-size: 3vw;
+    font-size: 3.3vw;
     text-align: center;
     margin-bottom: 1.5873vw;
     font-family: "Montserrat-regular";
     white-space: pre-line;
   }
 
+
   .btn {
     background-color: #664a9f;
     color: white;
-    width: 40vw;
-    height: 10vw;
+    width: 50vw;
+    height: 14vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     padding: 0px 0px 0px 6.2%;
-    border-radius: 4vw;
+    border-radius: 5vw;
     margin: 0.396827vw;
   }
+
 
   .btn_texto1 {
     font-size: 2vw;
@@ -400,19 +451,25 @@ body {
     margin-left: 1%;
   }
 
+
   .btn_texto2 {
-    font-size: 4vw;
+    font-size: 5vw;
     font-family: "Montserrat-bold";
   }
+
 
   .btn_texto_alt1 {
     line-height: 82%;
     margin-top: 1.5%;
-    font-size: 4vw;
+    font-size: 5vw;
     font-family: "Montserrat-bold";
     white-space: pre-line;
   }
 }
+
+
+/* Media para tamanho de tablet */
+
 
 @media screen and (max-width: 600px) and (min-width: 390px) {
 
@@ -426,6 +483,7 @@ body {
     white-space: pre-line;
   }
 
+
   .texto2 {
     text-align: center;
     font-size: 4vw;
@@ -434,86 +492,92 @@ body {
     white-space: pre-line;
     line-height: 0.8;
     margin-top: 1vw;
-
   }
 
+
   /******************* aumentar tamanho dos cards ************/
+
 
   .texto3 {
     font-size: 3.5vw;
     color: #664a9f;
     font-family: "Montserrat-regular";
     margin-top: 2vw;
-
   }
+
 
   .container_cards {
     display: flex;
-    gap: 1.5vw;
+    gap: 3vw;
     width: 95vw;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 2vw;
   }
 
+
   .card {
-    background-color: #664a9f;
-    padding: 0.8vw 0.8vw 1.57vw 0.8vw;
-    width: 29vw;
-    height: 20vw;
-    color: white;
+    width: 39vw;
+    height: 21vw;
   }
+
 
   .icon_card {
     width: 12vw;
     height: 12vw;
     position: relative;
     top: -1.5vw;
-    left: -5%;
+    left: -6%;
   }
 
+
   .texto_card1 {
-    font-size: 1.9vw;
+    font-size: 2.5vw;
     margin-top: -10vw;
-    margin-left: 9vw;
+    margin-left: 8vw;
     font-family: "Montserrat-black";
     white-space: pre-line;
   }
+
 
   .texto_card2 {
     font-family: "Montserrat-regular";
-    font-size: 1.9vw;
+    font-size: 2.3vw;
     white-space: pre-line;
     margin-top: 3vw;
-
+    text-align: left;
   }
+
 
   .texto_card1Insta {
     font-family: "Montserrat-black";
-    font-size: 1.5vw;
-    margin-left: 9vw;
+    font-size: 2.3vw;
+    margin-left: 8vw;
     margin-top: -10vw;
     white-space: pre-line;
   }
+
 
   .texto_card2Insta {
     font-family: "Montserrat-regular";
     white-space: pre-line;
-    font-size: 1.6vw;
+    font-size: 2.1vw;
     margin-top: 3.2vw;
     margin-left: 0vw;
   }
+
 
   /************************ aumentar botões seção4*****************/
   .secao_footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1.5vw;
-    gap: 0.5vw;
+    margin-top: 0.5vw;
+    gap: 8vw;
     margin-bottom: 4vw;
     margin-top: 6vw;
   }
+
 
   .texto4 {
     color: #664a9f;
@@ -524,11 +588,12 @@ body {
     white-space: pre-line;
   }
 
+
   .btn {
     background-color: #664a9f;
     color: white;
-    width: 35vw;
-    height: 13vw;
+    width: 50vw;
+    height: 14vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -538,6 +603,7 @@ body {
     margin: 0.396827vw;
   }
 
+
   .btn_texto1 {
     font-size: 2vw;
     font-family: "Montserrat-regular";
@@ -545,19 +611,22 @@ body {
     margin-left: 1%;
   }
 
+
   .btn_texto2 {
-    font-size: 4.5vw;
+    font-size: 5vw;
     font-family: "Montserrat-bold";
   }
+
 
   .btn_texto_alt1 {
     line-height: 82%;
     margin-top: 1.5%;
-    font-size: 4vw;
+    font-size: 5vw;
     font-family: "Montserrat-bold";
     white-space: pre-line;
   }
 }
+
 
 /* Media para tamanho de tablet */
 @media (min-width: 600px) and (max-width: 768px) {
@@ -572,6 +641,7 @@ body {
     white-space: pre-line;
   }
 
+
   .texto2 {
     text-align: center;
     font-size: 4vw;
@@ -580,18 +650,19 @@ body {
     white-space: pre-line;
     line-height: 0.8;
     margin-top: 1vw;
-
   }
 
+
   /******************* aumentar tamanho dos cards ************/
+
 
   .texto3 {
     font-size: 3.5vw;
     color: #664a9f;
     font-family: "Montserrat-regular";
     margin-top: 2vw;
-
   }
+
 
   .container_cards {
     display: flex;
@@ -602,6 +673,7 @@ body {
     margin-top: 2vw;
   }
 
+
   .card {
     background-color: #664a9f;
     padding: 0.8vw 0.8vw 1.57vw 0.8vw;
@@ -609,6 +681,7 @@ body {
     height: 18vw;
     color: white;
   }
+
 
   .icon_card {
     width: 12vw;
@@ -618,6 +691,7 @@ body {
     left: -5%;
   }
 
+
   .texto_card1 {
     font-size: 1.9vw;
     margin-top: -10vw;
@@ -626,13 +700,14 @@ body {
     white-space: pre-line;
   }
 
+
   .texto_card2 {
     font-family: "Montserrat-regular";
     font-size: 1.9vw;
     white-space: pre-line;
     margin-top: 3vw;
-
   }
+
 
   .texto_card1Insta {
     font-family: "Montserrat-black";
@@ -642,6 +717,7 @@ body {
     white-space: pre-line;
   }
 
+
   .texto_card2Insta {
     font-family: "Montserrat-regular";
     white-space: pre-line;
@@ -649,6 +725,7 @@ body {
     margin-top: 3.2vw;
     margin-left: 0vw;
   }
+
 
   /************************ aumentar botões seção4*****************/
   .secao_footer {
@@ -661,6 +738,7 @@ body {
     margin-top: 6vw;
   }
 
+
   .texto4 {
     color: #664a9f;
     font-size: 3.3vw;
@@ -669,6 +747,7 @@ body {
     font-family: "Montserrat-regular";
     white-space: pre-line;
   }
+
 
   .btn {
     background-color: #664a9f;
@@ -684,6 +763,7 @@ body {
     margin: 0.396827vw;
   }
 
+
   .btn_texto1 {
     font-size: 2vw;
     font-family: "Montserrat-regular";
@@ -691,10 +771,12 @@ body {
     margin-left: 1%;
   }
 
+
   .btn_texto2 {
     font-size: 4.5vw;
     font-family: "Montserrat-bold";
   }
+
 
   .btn_texto_alt1 {
     line-height: 82%;
@@ -704,6 +786,7 @@ body {
     white-space: pre-line;
   }
 }
+
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
@@ -717,6 +800,7 @@ body {
     white-space: pre-line;
   }
 
+
   .texto2 {
     text-align: center;
     font-size: 4vw;
@@ -725,18 +809,19 @@ body {
     white-space: pre-line;
     line-height: 0.8;
     margin-top: 1vw;
-
   }
 
+
   /******************* aumentar tamanho dos cards ************/
+
 
   .texto3 {
     font-size: 3.5vw;
     color: #664a9f;
     font-family: "Montserrat-regular";
     margin-top: 2vw;
-
   }
+
 
   .container_cards {
     display: flex;
@@ -747,6 +832,7 @@ body {
     margin-top: 2vw;
   }
 
+
   .card {
     background-color: #664a9f;
     padding: 0.8vw 0.8vw 1.57vw 0.8vw;
@@ -754,6 +840,7 @@ body {
     height: 18vw;
     color: white;
   }
+
 
   .icon_card {
     width: 12vw;
@@ -763,6 +850,7 @@ body {
     left: -5%;
   }
 
+
   .texto_card1 {
     font-size: 1.9vw;
     margin-top: -10vw;
@@ -771,13 +859,14 @@ body {
     white-space: pre-line;
   }
 
+
   .texto_card2 {
     font-family: "Montserrat-regular";
     font-size: 1.9vw;
     white-space: pre-line;
     margin-top: 3vw;
-
   }
+
 
   .texto_card1Insta {
     font-family: "Montserrat-black";
@@ -787,6 +876,7 @@ body {
     white-space: pre-line;
   }
 
+
   .texto_card2Insta {
     font-family: "Montserrat-regular";
     white-space: pre-line;
@@ -794,6 +884,7 @@ body {
     margin-top: 3.2vw;
     margin-left: 0vw;
   }
+
 
   /************************ aumentar botões seção4*****************/
   .secao_footer {
@@ -806,6 +897,7 @@ body {
     margin-top: 6vw;
   }
 
+
   .texto4 {
     color: #664a9f;
     font-size: 3.3vw;
@@ -814,6 +906,7 @@ body {
     font-family: "Montserrat-regular";
     white-space: pre-line;
   }
+
 
   .btn {
     background-color: #664a9f;
@@ -829,6 +922,7 @@ body {
     margin: 0.396827vw;
   }
 
+
   .btn_texto1 {
     font-size: 2vw;
     font-family: "Montserrat-regular";
@@ -836,10 +930,12 @@ body {
     margin-left: 1%;
   }
 
+
   .btn_texto2 {
     font-size: 4.5vw;
     font-family: "Montserrat-bold";
   }
+
 
   .btn_texto_alt1 {
     line-height: 82%;
@@ -848,8 +944,8 @@ body {
     font-family: "Montserrat-bold";
     white-space: pre-line;
   }
-
 }
+
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 
@@ -863,6 +959,7 @@ body {
     white-space: pre-line;
   }
 
+
   .texto2 {
     text-align: center;
     font-size: 2.6vw;
@@ -872,15 +969,17 @@ body {
     line-height: 0.8;
   }
 
+
   /******************* aumentar tamanho dos cards ************/
+
 
   .texto3 {
     font-size: 3.5vw;
     color: #664a9f;
     font-family: "Montserrat-regular";
     margin-top: 2vw;
-
   }
+
 
   .container_cards {
     display: flex;
@@ -891,6 +990,7 @@ body {
     margin-top: 2vw;
   }
 
+
   .card {
     background-color: #664a9f;
     padding: 0.8vw 0.8vw 1.57vw 0.8vw;
@@ -898,6 +998,7 @@ body {
     height: 18vw;
     color: white;
   }
+
 
   .icon_card {
     width: 12vw;
@@ -907,6 +1008,7 @@ body {
     left: -5%;
   }
 
+
   .texto_card1 {
     font-size: 1.9vw;
     margin-top: -10vw;
@@ -915,13 +1017,14 @@ body {
     white-space: pre-line;
   }
 
+
   .texto_card2 {
     font-family: "Montserrat-regular";
     font-size: 1.9vw;
     white-space: pre-line;
     margin-top: 3vw;
-
   }
+
 
   .texto_card1Insta {
     font-family: "Montserrat-black";
@@ -931,6 +1034,7 @@ body {
     white-space: pre-line;
   }
 
+
   .texto_card2Insta {
     font-family: "Montserrat-regular";
     white-space: pre-line;
@@ -938,6 +1042,7 @@ body {
     margin-top: 3.2vw;
     margin-left: 0vw;
   }
+
 
   /************************ aumentar botões seção4*****************/
   .secao_footer {
@@ -950,6 +1055,7 @@ body {
     margin-top: 6vw;
   }
 
+
   .texto4 {
     color: #664a9f;
     font-size: 3.3vw;
@@ -958,6 +1064,7 @@ body {
     font-family: "Montserrat-regular";
     white-space: pre-line;
   }
+
 
   .btn {
     background-color: #664a9f;
@@ -973,6 +1080,7 @@ body {
     margin: 0.396827vw;
   }
 
+
   .btn_texto1 {
     font-size: 2vw;
     font-family: "Montserrat-regular";
@@ -980,10 +1088,12 @@ body {
     margin-left: 1%;
   }
 
+
   .btn_texto2 {
     font-size: 4.5vw;
     font-family: "Montserrat-bold";
   }
+
 
   .btn_texto_alt1 {
     line-height: 82%;
@@ -994,8 +1104,8 @@ body {
   }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1920px) {
 
+@media screen and (min-width: 1200px) and (max-width: 1920px) {
 
   /************************ aumentar botões seção4*****************/
   .secao_footer {
@@ -1008,6 +1118,7 @@ body {
     margin-top: 6vw;
   }
 
+
   .texto4 {
     color: #664a9f;
     font-size: 3.3vw;
@@ -1016,6 +1127,7 @@ body {
     font-family: "Montserrat-regular";
     white-space: pre-line;
   }
+
 
   .btn {
     background-color: #664a9f;
@@ -1031,6 +1143,7 @@ body {
     margin: 0.396827vw;
   }
 
+
   .btn_texto1 {
     font-size: 1vw;
     font-family: "Montserrat-regular";
@@ -1038,10 +1151,12 @@ body {
     margin-left: 1%;
   }
 
+
   .btn_texto2 {
     font-size: 2.5vw;
     font-family: "Montserrat-bold";
   }
+
 
   .btn_texto_alt1 {
     line-height: 82%;
@@ -1051,6 +1166,7 @@ body {
     white-space: pre-line;
   }
 
+
   .texto_card2Insta {
     font-family: "Montserrat-regular";
     white-space: pre-line;
@@ -1058,5 +1174,4 @@ body {
     margin-top: 3vw;
     margin-left: 0vw;
   }
-
 }
