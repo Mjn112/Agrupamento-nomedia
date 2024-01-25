@@ -187,27 +187,49 @@
    margin-top: -6.8vw;
    margin-left: 6vw;
    font-family: "Montserrat-black";
-   white-space: pre-line;
+   /* white-space: pre-line; */
  }
 
  .texto_card2 {
    font-family: "Montserrat-regular";
    font-size: 1.8vw;
-   white-space: pre-line;
+   /* white-space: pre-line; */
    margin-top: 3vw;
  }
+
+ .texto_card2-3 {
+   font-family: "Montserrat-regular";
+   font-size: 1.8vw;
+   /* white-space: pre-line; */
+   margin-top: 3vw;
+ }
+
+ .texto_card2-4 {
+   font-family: "Montserrat-regular";
+   font-size: 1.8vw;
+   /* white-space: pre-line; */
+   margin-top: 3vw;
+ }
+
+ .texto_card2-1 {
+   font-family: "Montserrat-regular";
+   font-size: 1.8vw;
+   /* white-space: pre-line; */
+   margin-top: 3vw;
+ }
+
 
  .texto_card1Insta {
    font-family: "Montserrat-black";
    margin-top: -6.8vw;
    margin-left: 6vw;
-   white-space: pre-line;
+   /* white-space: pre-line; */
    font-size: 1.4vw;
  }
 
  .texto_card2Insta {
    font-family: "Montserrat-regular";
-   white-space: pre-line;
+   /* white-space: pre-line; */
    font-size: 1.8vw;
    margin-top: 3vw;
  }
@@ -318,7 +340,7 @@
 
    .card {
      width: 39vw;
-     height: 21vw;
+     height: 24vw;
    }
 
    .icon_card {
@@ -339,11 +361,46 @@
 
    .texto_card2 {
      font-family: "Montserrat-regular";
-     font-size: 2.3vw;
-     white-space: pre-line;
-     margin-top: 3vw;
-     text-align: left;
+     font-size: 3vw;
+     padding: 5px;
+     margin-top: 2vw;
+     text-align: justify;
+     letter-spacing: -0.5px;
+     word-break: break-word;
    }
+
+   .texto_card2-1 {
+     font-family: "Montserrat-regular";
+     padding: 5px;
+     font-size: 2.8vw;
+     text-align: justify;
+     letter-spacing: -0.8px;
+     word-break: break-word;
+
+   }
+
+   .texto_card2-3 {
+     font-family: "Montserrat-regular";
+     font-size: 2.8vw;
+     padding: 5px;
+     margin-top: 2vw;
+     text-align: justify;
+     letter-spacing: -0.5px;
+     word-break: break-word;
+
+   }
+
+   .texto_card2-4 {
+     font-family: "Montserrat-regular";
+     font-size: 2.8vw;
+     padding: 5px;
+     margin-top: 2vw;
+     text-align: justify;
+     letter-spacing: -0.6px;
+     word-break: break-word;
+
+   }
+
 
    .texto_card1Insta {
      font-family: "Montserrat-black";
@@ -355,10 +412,11 @@
 
    .texto_card2Insta {
      font-family: "Montserrat-regular";
-     white-space: pre-line;
-     font-size: 2vw;
-     margin-top: 3.2vw;
-     margin-left: 0vw;
+     padding: 3px;
+     font-size: 2.7vw;
+     text-align: justify;
+     letter-spacing: -0.5px;
+     word-break: break-word;
    }
 
    /************************ aumentar botões seção4*****************/
@@ -458,8 +516,8 @@
    }
 
    .card {
-     width: 39vw;
-     height: 21vw;
+     width: 40vw;
+     height: 23vw;
    }
 
    .icon_card {
@@ -480,11 +538,44 @@
 
    .texto_card2 {
      font-family: "Montserrat-regular";
-     font-size: 2.3vw;
-     white-space: pre-line;
-     margin-top: 3vw;
-     text-align: left;
+     font-size: 2.8vw;
+     padding: 5px;
+     margin-top: 2vw;
+     text-align: justify;
+     /* letter-spacing: -0.8px; */
+     word-break: break-word;
    }
+
+   .texto_card2-1 {
+     font-family: "Montserrat-regular";
+     padding: 5px;
+     font-size: 2.8vw;
+     text-align: justify;
+     /* letter-spacing: -0.8px; */
+     margin-top: 2vw;
+     word-break: break-all;
+   }
+
+   .texto_card2-3 {
+     font-family: "Montserrat-regular";
+     font-size: 2.8vw;
+     padding: 5px;
+     margin-top: 2vw;
+     text-align: justify;
+     letter-spacing: -0.4px;
+     word-break: break-word;
+   }
+
+   .texto_card2-4 {
+     font-family: "Montserrat-regular";
+     font-size: 2.7vw;
+     padding: 5px;
+     margin-top: 2vw;
+     text-align: justify;
+     word-break: break-word;
+     letter-spacing: -0.5px;
+   }
+
 
    .texto_card1Insta {
      font-family: "Montserrat-black";
@@ -496,10 +587,11 @@
 
    .texto_card2Insta {
      font-family: "Montserrat-regular";
-     white-space: pre-line;
-     font-size: 2vw;
-     margin-top: 3.2vw;
-     margin-left: 0vw;
+     padding: 3px;
+     font-size: 2.7vw;
+     text-align: justify;
+     letter-spacing: -0.5px;
+     word-break: break-word;
    }
 
    /************************ aumentar botões seção4*****************/
